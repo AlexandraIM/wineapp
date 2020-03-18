@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:wine_app/provider/wine_item.dart';
 import 'package:wine_app/widgets/card_back.dart';
+import '../icons/my_wine_icon_icons.dart';
 
 class WineCart extends StatelessWidget {
   @override
@@ -40,7 +41,7 @@ class WineCart extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(7.0),
                     child: Icon(
-                      Icons.fastfood,
+                      MyWineIcon.italian_wine_bottle_svgrepo_com,
                       color: Theme.of(context).primaryColor,
                       size: 40.0,
                     ),
